@@ -1,0 +1,111 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arturo Soria</title>
+	<link rel="icon" sizes="192x192" href="https://static.djangoproject.com/img/icon-touch.e4872c4da341.png">
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 bg-dark text-white border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/profile-photo.jpg' %}">
+                    <hr>
+                    <h4>Hola Soy Arturo Soria!</h4>
+                    <p>Me gusta la programacion y aprendo constantemente.</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 bg-dark text-white  border-info">
+                    <h4>Mi primer proyecto Web #ArgentinaPrograma</h4>
+                    <hr>
+                    <p> En 2021 inicie la cursada en el trayecto de #YoProgramo de Argentina Programa perteneciente al
+                        Ministerio de Producción con la CESSI. El objetivo es formar a estudiantes en desarrollo
+                        fullstack Jr. para que puedan tener una base para conseguir trabajo.</p>
+
+                    <p>Ultimanente, presenté el porfolio final solo queda esperar a que lo aprueben.</p>
+
+                    <p>Estoy ansioso de poder mostrar mis avances con las tecnologias.
+                    <ul class="skills-line">
+
+                        <li><img id="socials" src="{% static 'images/angular.png' %}"><span>Angular +13</span></li>
+                        <li><img id="socials" src="{% static 'images/Java.png' %}"><span>SpringBoot + JPA</span> </li>
+                        <li><img id="socials" src="{% static 'images/MSQL.png' %}"><span>MySQL</span></li>
+
+                       
+
+                    </ul>
+
+
+                    </p>
+
+                    <ul class="social-links">
+                        <li><i class="fa-brands fa-3x fa-square-facebook"></i></li>
+                        <li><i class="fa-brands fa-3x fa-square-github"></i></li>
+                        <li><i class="fa-brands fa-3x fa-square-twitter"></i></li>
+                        <li><i class="fa-brands fa-3x fa-linkedin"></i></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body bg-dark text-white h-100">
+                    <h5>Desarrollador Fullstack Jr</h5>
+                    <hr>
+                    <p>Desarrolo de aplicaciones Django Python</p>
+                    <p>Diseño, routers y despliegue en Heroku.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body bg-dark text-white h-100">
+                    <h5>Hard Skills</h5>
+                    <hr>
+                    <p>Python, Django, HTML/CSS, JavaScript/ MYSQL, Firebase, Heroku APIs 
+                        </p>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body bg-dark text-white h-100">
+                    <h5>SoftSkills</h5>
+                    <hr>
+                    <p>Comunicacion asertiva, control de emociones, trabajo en equipo y mejor desempeño colaborativo</p>
+
+                    <p>Puedo aprender en entornos amigables y socialmente aceptables.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body bg-dark text-white h-100">
+                    <h5>Mis grandes retos</h5>
+                    <hr>
+                    <p>Aprender y dominar correctamente el inglés de manera conversacional para romper con las barreras del idioma para conseguir un trabajo</p>
+                    
+
+                </div>
+            </div>
+        </div>
+        <br>
+    </div><!-- scripts para importar librerias // boostrap y fontawesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/6a76143ca2.js" crossorigin="anonymous"></script>
+</body>
+
+</body>
+</html>

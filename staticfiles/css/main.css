@@ -1,0 +1,48 @@
+body{
+	
+	background: rgb(13,175,146);
+background: linear-gradient(90deg, rgba(13,175,146,1) 0%, rgba(14,214,171,1) 48%, rgba(0,212,255,1) 100%);
+	
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+
+	display: flex;
+	
+	align-self: center;
+
+}
+
+
+.social-links ul, li{
+	padding: 1rem;
+	list-style-type:none;
+	display: inline-block;
+
+}
+
+.social li, svg{
+	width:40px;
+	height: 40px;
+}
+
+.skills-line span{
+	padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
